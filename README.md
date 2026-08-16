@@ -128,7 +128,7 @@ Predicted churn probabilities can be used to prioritize retention campaigns, tar
 - Cloud deployment
 - Model monitoring
 
-- ## Model Performance
+  ## Model Performance
 
 | Model | Accuracy | Precision | Recall | F1 Score | ROC-AUC |
 |---|---:|---:|---:|---:|---:|
