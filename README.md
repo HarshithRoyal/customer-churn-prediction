@@ -127,3 +127,14 @@ Predicted churn probabilities can be used to prioritize retention campaigns, tar
 - Docker containerization
 - Cloud deployment
 - Model monitoring
+
+- ## Model Performance
+
+| Model | Accuracy | Precision | Recall | F1 Score | ROC-AUC |
+|---|---:|---:|---:|---:|---:|
+| Logistic Regression | 73.81% | 50.43% | 78.34% | 61.36% | 84.13% |
+| Random Forest | 75.44% | 52.53% | 77.81% | 62.72% | 84.07% |
+
+Logistic Regression achieved the highest ROC-AUC score of **84.13%**, while Random Forest achieved slightly higher accuracy, precision, and F1 score.
+
+Logistic Regression was selected as the primary model based on ROC-AUC. It achieved **78.34% recall**, meaning the model correctly identified a substantial proportion of customers who actually churned.
